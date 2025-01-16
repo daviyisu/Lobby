@@ -12,6 +12,7 @@ import lombok.Setter;
 @Table(name="collection")
 public class Collection {
 
+    //dwadawdwa
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false, updatable = false)
